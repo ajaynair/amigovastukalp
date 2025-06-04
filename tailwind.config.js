@@ -2,7 +2,9 @@
 export default {
   content: [
     "./index.html",
-    "./**/*.{js,ts,jsx,tsx}", // Scan all relevant files in the project root and subdirectories
+    "./*.{ts,tsx}", // For root .ts and .tsx files like App.tsx, index.tsx
+    "./components/**/*.{ts,tsx}",
+    "./pages/**/*.{ts,tsx}",
   ],
   theme: {
     extend: {
