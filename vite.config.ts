@@ -2,14 +2,13 @@
 import { defineConfig, loadEnv } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
-// Removed: import process from 'process';
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   // Load env file based on mode (development, production)
   // VITE_GEMINI_API_KEY should be in your .env file for local dev
   // or set as an environment variable in your CI/deployment environment
-  const env = loadEnv(mode, process.cwd(), ''); // process.cwd() will now use the global process object
+  const env = loadEnv(mode, process.cwd(), ''); // Use process.cwd() directly
 
   return {
     plugins: [react()],
