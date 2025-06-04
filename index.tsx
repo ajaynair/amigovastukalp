@@ -1,8 +1,8 @@
-
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import { HashRouter } from 'react-router-dom';
+import './main.css'; // Import global styles and Tailwind
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {

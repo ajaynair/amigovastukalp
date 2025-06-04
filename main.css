@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* For smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for a sleeker look (optional) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1a202c; /* dark-800 / bg-slate-800 or similar */
+}
+::-webkit-scrollbar-thumb {
+  background: #4a5568; /* dark-600 / bg-slate-600 or similar */
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2d3748; /* dark-700 / bg-slate-700 or similar */
+}
+
+body {
+  @apply bg-slate-900 text-slate-100 antialiased;
+}

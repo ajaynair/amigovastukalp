@@ -1,5 +1,4 @@
 
-import React from 'react';
 import { NavLinkItem, Service, TeamMember, GalleryImage } from './types';
 
 // SVG Icons
@@ -52,7 +51,7 @@ export const SERVICES_DATA: Service[] = [
 export const TEAM_MEMBERS_DATA: TeamMember[] = [
   {
     id: 'girish',
-    name: 'Girish Menon',
+    name: 'Girish P Menon',
     role: 'Founder & Lead Contractor',
     imageUrl: 'https://picsum.photos/seed/girishmenon/400/400', // Replace with actual image URL
     bio: 'With decades of experience, Girish champions quality and customer satisfaction, leading Amigo Vastukalp with a vision for excellence in every project.'
