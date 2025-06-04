@@ -14,8 +14,8 @@ const AboutUsPage: React.FC = () => {
           <p className="mt-4 text-xl text-cyan-300">{COMPANY_MOTTO}</p>
         </div>
         <div className="max-w-3xl mx-auto text-slate-300 space-y-6 text-lg text-center sm:text-left">
-          <p>{ABOUT_COMPANY_INTRO}</p>
-          <p>{ABOUT_COMPANY_DETAILS}</p>
+          <p style={{ textAlign: "justify" }}>{ABOUT_COMPANY_INTRO}</p>
+          <p style={{ textAlign: "justify" }}>{ABOUT_COMPANY_DETAILS}</p>
         </div>
       </SectionContainer>
 

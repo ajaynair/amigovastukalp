@@ -24,7 +24,7 @@ const Header: React.FC = () => {
               <span className="text-white">Amigo</span>
               <span className="text-cyan-400">Vastukalp</span>
             </h1>
-            <p className="text-xs text-cyan-300 tracking-wider hidden sm:block">Friendly To Customer</p>
+            <p className="text-xs text-cyan-300 tracking-wider hidden sm:block">Crafting Inspired Spaces with Elegance and Precision</p>
           </Link>
           
           {/* Desktop Navigation */}

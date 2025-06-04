@@ -51,14 +51,14 @@ export const SERVICES_DATA: Service[] = [
 export const TEAM_MEMBERS_DATA: TeamMember[] = [
   {
     id: 'girish',
-    name: 'Girish P Menon',
+    name: 'Girish Menon',
     role: 'Founder & Lead Contractor',
-    imageUrl: 'https://picsum.photos/seed/girishmenon/400/400', // Replace with actual image URL
+    imageUrl: 'https://picsum.photos/seed/priyasharma/400/400', // Replace with actual image URL
     bio: 'With decades of experience, Girish champions quality and customer satisfaction, leading Amigo Vastukalp with a vision for excellence in every project.'
   },
   {
-    id: 'priya',
-    name: 'Priya Sharma',
+    id: 'rati',
+    name: 'Rati Menon',
     role: 'Lead Interior Designer',
     imageUrl: 'https://picsum.photos/seed/priyasharma/400/400', // Replace with actual image URL
     bio: 'Priya brings creativity and a keen eye for detail, transforming spaces into artful, functional environments that reflect client aspirations.'
@@ -95,7 +95,7 @@ export const GALLERY_IMAGES_DATA: GalleryImage[] = [
 ];
 
 export const COMPANY_MOTTO = "Amigo Vastukalp: Your Friendly Partner in Building Dreams.";
-export const COMPANY_TAGLINE = "One Stop Solution for All Your Interior & Civil Requirements.";
+export const COMPANY_TAGLINE = "Crafting Inspired Spaces with Elegance and Precision.";
 export const ABOUT_COMPANY_INTRO = "Welcome to Amigo Vastukalp, where your vision for perfect spaces comes to life. We are your trusted partners for comprehensive interior and civil contracting solutions, built on a foundation of friendship, quality, and unwavering customer focus.";
 export const ABOUT_COMPANY_DETAILS = "Specializing in residential and commercial interiors, meticulous civil works, and seamless turnkey projects, we offer an end-to-end experience. Our team is dedicated to transforming your ideas into reality with precision, innovative design, and a commitment to excellence. At Amigo Vastukalp, we believe in building more than just structures; we build lasting relationships.";
 export const ABOUT_COMPANY_SHORT = "Amigo Vastukalp is your trusted partner for comprehensive interior and civil contracting solutions. We specialize in residential and commercial interiors, civil works, and turnkey projects, offering a seamless, friendly experience from concept to completion. Our commitment is to transform your vision into reality with quality, precision, and a customer-centric approach.";

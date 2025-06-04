@@ -11,8 +11,8 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-xl font-semibold text-cyan-400 mb-4">Amigo Vastukalp</h3>
-            <p className="text-sm mb-2">{COMPANY_MOTTO}</p>
-            <p className="text-sm">{ABOUT_COMPANY_SHORT}</p>
+            <p className="text-sm mb-2" style={{ textAlign: "justify" }}>{COMPANY_MOTTO}</p>
+            <p className="text-sm" style={{ textAlign: "justify" }}>{ABOUT_COMPANY_SHORT}</p>
           </div>
           <div>
             <h3 className="text-xl font-semibold text-cyan-400 mb-4">Quick Links</h3>
